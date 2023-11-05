@@ -1,0 +1,73 @@
+body {
+  height: auto;
+  background: linear-gradient(
+    to bottom,
+    #ab7ebd 0%,
+    #ab5eb6 30%,
+    hsl(295, 33%, 53%) 60%,
+    #af74b8 80%,
+    #be82c9 100%
+  );
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: arial;
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: 700;
+  color: #dccae9;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  background: #d6a7d6;
+
+  margin-top: 1px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+  border-radius: 25px;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  text-align: left;
+  width: fit-content;
+  font-size: larger;
+  border-radius: 25px;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  padding-top: 5px;
+  background: #975797;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+input[type="text"],
+select {
+  border-radius: 25px;
+  width: 85%;
+  padding: 25px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  font-size: medium;
+
+  box-sizing: border-box;
+
+  bottom: 0px;
+}

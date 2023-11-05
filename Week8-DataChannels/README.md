@@ -1,5 +1,2 @@
-# Week 8 Assignment
-## Code Files
-## Live Web Course
+# Hello Chat!
 
-[Link to Website](bq2024.imany.io/chatApp)

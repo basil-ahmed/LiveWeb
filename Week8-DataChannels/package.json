@@ -1,0 +1,23 @@
+{
+  "name": "glitch-hello-node",
+  "version": "0.0.1",
+  "description": "A simple Node + Socket.io example",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^2.5.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "socket.io"
+  ]
+}
